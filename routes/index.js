@@ -19,7 +19,7 @@ router.get('/testing', function(req, res){
 		dtMS: new Date().getTime()
 	}
 
-	db.testinginfo.save(testingObj);
+	//db.testinginfo.save(testingObj);
 
 	let arr = db.testinginfo.find();
 
